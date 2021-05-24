@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shibaOne, .shibaTwo, .shibaThree {
+    border-radius: 50%;
+    height: 200px;
+    width: 300px;
+}
+
+.shibaThree {
+    height: 200px;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.shibaOne:hover {
+    height: 220px;
+    width: 330px;
+}
+
+.shibaTwo:hover {
+    height: 220px;
+    width: 330px;
+}
+
+.shibaThree:hover {
+    height: 220px;
+    width: 330px;
+}
